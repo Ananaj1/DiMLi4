@@ -1,0 +1,83 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+    <title>Галерея</title>
+    <style>
+    .thumb img{
+        margin-right: 25px;
+        padding: 5px;
+        border: 10px solid #76d6fc; /* Рамка вокруг фотографии */
+       
+    display:inline-block;
+    width: auto;
+    margin: 25px;
+        background: rgba(173, 255, 255, 0.973)
+  
+
+    } 
+    </style>
+ 
+<div class="block">
+    <p class="thumb">
+        <img src="D:\Документы\Для технаря\Photo\Волшебная сказка.jpg" style="max-width: 100%" title="Волшебная сказка"> 
+        <table width=100%>
+            <style>
+        table  {
+            display:inline-block;
+                width: 100%;
+                margin: 30px;
+                border: 3px solid rgb(86, 173, 245);
+             }
+            </style>
+                <tr ><th>  Волшебная сказка</th></tr> <!--ряд с ячейками заголовков-->
+                <tr><td>2200р</td></tr> <!--ряд с ячейками тела таблицы-->
+            </table>
+</div>
+
+<div class="block">
+    <p class="thumb">
+<img src="D:\Документы\Для технаря\Photo\Ночная сакура.jpg" style="max-width: 100%" title="Ночная сакура">
+    <table width=100%>
+    <style>
+table  {
+    display:inline-block;
+    width: 100%;
+    margin: 20px;
+        border: 3px solid rgb(86, 173, 245);
+     }
+    </style>
+        <tr><th>Ночная сакура</th></tr> <!--ряд с ячейками заголовков-->
+        <tr><td>1700р</td></tr> <!--ряд с ячейками тела таблицы-->
+    </table>
+</div>
+
+<div class="block">
+    <p class="thumb">
+<img src="D:\Документы\Для технаря\Photo\Филин.jpg" style="max-width: 100%"  title="Филин">
+<table>
+    <style>
+table  {
+    display:inline-block;
+    width: 100%;
+    margin: 20px;
+        border: 3px solid rgb(86, 173, 245);
+}
+    </style>
+        <tr><th>Филин</th></tr> <!--ряд с ячейками заголовков-->
+        <tr><td>2000р</td></tr> <!--ряд с ячейками тела таблицы-->
+    </table>
+</div>
+</body>
+</html>
+<style type="text/css">
+  .block {
+    display:inline-block;
+    width: 30%;
+    margin: 20px;
+  }
+  body {
+    background: rgba(173, 255, 255, 0.973)
+  }
+</style>
